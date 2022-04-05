@@ -1,0 +1,16 @@
+.kinds-of-cycling__image-container {
+  display: flex;
+  flex-direction: column;
+  height: 175px;
+  overflow: hidden;
+  position: relative;
+  grid-area: kinds-of-cycling__image-container;
+}
+
+@media screen and (min-width: 1440px) {
+  .kinds-of-cycling__image-container {
+    flex-direction: row;
+    height: 400px;
+    width: 1320px;
+  }
+}

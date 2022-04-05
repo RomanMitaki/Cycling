@@ -1,0 +1,20 @@
+.motivation__quote-text {
+  font-size: 22px;
+  line-height: 1.2608695652;
+  letter-spacing: -0.5px;
+  font-weight: 600;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 1440px) {
+  .motivation__quote-text {
+    font-size: 34px;
+    line-height: 1.2941176471;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}/*# sourceMappingURL=motivation__quote-text.css.map */

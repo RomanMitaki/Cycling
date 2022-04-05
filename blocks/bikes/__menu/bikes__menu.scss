@@ -1,0 +1,15 @@
+.bikes__menu {
+  @include reset-ul;
+  display: flex;
+  flex-direction: column;
+  width: 114px;
+  grid-area: bikes__menu;
+  }
+
+  @media screen and (min-width: 1440px) {
+    .bikes__menu {
+      flex-direction: row;
+      width: 227px;
+      justify-content: space-between;
+    }
+  }

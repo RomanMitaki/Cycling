@@ -1,0 +1,15 @@
+.footer__logo {
+  height: 38px;
+  width: 38px;
+  background-image: url(../images/UI\ KIT\ logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: block;
+}
+
+@media screen and (min-width: 1440px) {
+  .footer__logo {
+    display: none;
+  }
+}/*# sourceMappingURL=footer__logo.css.map */

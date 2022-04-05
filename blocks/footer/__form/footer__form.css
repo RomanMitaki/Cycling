@@ -1,0 +1,13 @@
+.footer__form {
+  box-sizing: border-box;
+  width: 100%;
+  position: relative;
+  padding-bottom: 90px;
+}
+
+@media screen and (min-width: 1440px) {
+  .footer__form {
+    width: 360px;
+    padding-bottom: 100px;
+  }
+}/*# sourceMappingURL=footer__form.css.map */

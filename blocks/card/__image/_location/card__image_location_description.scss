@@ -1,0 +1,12 @@
+.card__image_location_description {
+  width: 181px;
+  height: 139px;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 1440px) {
+  .card__image_location_description {
+    width: 340px;
+    height: 260px;
+  }
+}

@@ -1,0 +1,13 @@
+.description__caption-accent {
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .description__caption-accent {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 132px;
+    border-bottom: 2px solid #D7D4D4;
+  }
+}

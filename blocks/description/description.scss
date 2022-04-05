@@ -1,0 +1,36 @@
+.description {
+  display: grid;
+  grid-template-columns: 284px;
+  grid-template-rows: repeat(auto-fit, minmax(46px, 1fr));
+  row-gap: 40px;
+  grid-template-areas:
+    "description__title"
+    "description__image"
+    "description__text"
+    "description__btn";
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  padding-bottom: 80px;
+  padding-top: 40px;
+  border-bottom: 1px solid #e3e3e3;
+  position: relative;
+}
+
+@media screen and (min-width: 1440px) {
+  .description {
+    grid-template-columns: 460px 490px;
+    grid-template-rows: 180px 112px 50px 1fr;
+    row-gap: 50px;
+    column-gap: 250px;
+    grid-template-areas:
+      "description__title description__image"
+      "description__text description__image"
+      "description__btn description__image"
+      "description__caption description__image";
+    padding-top: 20px;
+    border-bottom: none;
+    justify-items: start;
+    padding-bottom: 0;
+  }
+}

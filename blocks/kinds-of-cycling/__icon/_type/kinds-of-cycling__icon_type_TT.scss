@@ -1,0 +1,14 @@
+.kinds-of-cycling__icon_type_TT {
+  background-image: url('../images/UI\ KIT\ road-label-plain-desktop.svg');
+  width: 39px;
+  height: 2px;
+  transform: translate(11px, 17px);
+}
+
+@media screen and (min-width: 1440px) {
+  .kinds-of-cycling__icon_type_TT {
+    width: 50px;
+    height: 2px;
+    transform: translate(16px, 25px);
+  }
+}

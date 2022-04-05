@@ -1,0 +1,46 @@
+.footer__email {
+  font-family: inherit;
+  display: block;
+  width: 100%;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 50px;
+  padding: 0 0 0 20px;
+  box-sizing: border-box;
+  background-color: #efefef;
+  border-radius: 4px;
+  border: 1px solid rgba(199, 199, 199, 0.5);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.footer__email:focus {
+  outline: 1px solid #c7c7c7;
+}
+.footer__email::-moz-placeholder {
+  color: rgba(34, 34, 34, 0.7);
+}
+.footer__email:-ms-input-placeholder {
+  color: rgba(34, 34, 34, 0.7);
+}
+.footer__email::placeholder {
+  color: rgba(34, 34, 34, 0.7);
+}
+.footer__email::-moz-placeholder {
+  color: rgba(34, 34, 34, 0.7);
+}
+.footer__email:focus::-moz-placeholder {
+  color: rgb(21, 21, 21);
+}
+.footer__email:focus:-ms-input-placeholder {
+  color: rgb(21, 21, 21);
+}
+.footer__email:focus::placeholder {
+  color: rgb(21, 21, 21);
+}
+.footer__email:focus::-webkit-input-placeholder {
+  color: rgb(21, 21, 21);
+}
+.footer__email:focus::-moz-placeholder {
+  color: rgb(21, 21, 21);
+}/*# sourceMappingURL=footer__email.css.map */

@@ -1,0 +1,14 @@
+.header_type_desktop {
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .header_type_desktop {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 50%;
+    transform: translateX(50%);
+    z-index: 9999;
+  }
+}

@@ -1,0 +1,13 @@
+.header_type_mobile {
+  position: fixed;
+  top: 0;
+  right: 50%;
+  transform: translateX(50%);
+  z-index: 9999;
+}
+
+@media screen and (min-width: 1440px) {
+  .header_type_mobile {
+    display: none;
+  }
+}

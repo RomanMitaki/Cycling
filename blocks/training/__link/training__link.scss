@@ -1,0 +1,15 @@
+@use "sass:math";
+
+.training__link {
+  @include link-decoration;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: math.div(20, 14);
+}
+
+@media screen and (min-width: 1440px) {
+  .training__link {
+    font-size: 18px;
+    line-height: math.div(28, 18);
+  }
+}

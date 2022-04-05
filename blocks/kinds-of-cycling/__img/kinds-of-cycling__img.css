@@ -1,0 +1,14 @@
+.kinds-of-cycling__img {
+  width: 284px;
+  height: 175px;
+}
+
+@media screen and (min-width: 1440px) {
+  .kinds-of-cycling__img {
+    width: 650px;
+    height: 400px;
+  }
+  .kinds-of-cycling__img:last-of-type {
+    margin-left: 40px;
+  }
+}/*# sourceMappingURL=kinds-of-cycling__img.css.map */

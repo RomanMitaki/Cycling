@@ -1,0 +1,14 @@
+.kinds-of-cycling__btn_prev {
+  background-image: url("../images/UI KIT btn-arrow-prev.svg");
+  background-position: 9px 7px;
+  background-repeat: no-repeat;
+  background-size: 5px 10px;
+}
+
+@media screen and (min-width: 1440px) {
+  .kinds-of-cycling__btn_prev {
+    background-image: url(../images/UI\ KIT\ btn-arrow-desktop-prev.svg);
+    background-position: 20px 17px;
+    background-size: 9px 16px;
+  }
+}/*# sourceMappingURL=kinds-of-cycling__btn_prev.css.map */

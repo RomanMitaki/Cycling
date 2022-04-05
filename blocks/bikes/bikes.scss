@@ -1,0 +1,33 @@
+.bikes {
+  display: grid;
+  grid-template-columns: 284px;
+  grid-template-rows: repeat(auto-fit, minmax(4px, 1fr));
+  row-gap: 20px;
+  grid-template-areas:
+    "bikes__title"
+    "bikes__menu"
+    "bikes__grid-wrapper";
+  align-items: center;
+  justify-items: start;
+  justify-content: center;
+  padding-bottom: 80px;
+  padding-top: 40px;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+@media screen and (min-width: 1440px) {
+  .bikes {
+    grid-template-columns: 460px 227px;
+    grid-template-rows: repeat(auto-fit, minmax(60px, 1fr));
+    row-gap: 120px;
+    column-gap: 513px;
+    grid-template-areas:
+      "bikes__title bikes__menu"
+      "bikes__grid-wrapper bikes__grid-wrapper";
+    align-items: center;
+    justify-items: start;
+    justify-content: center;
+    border-bottom: none;
+    padding-bottom: 60px;
+  }
+}

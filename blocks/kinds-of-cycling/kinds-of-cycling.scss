@@ -1,0 +1,36 @@
+.kinds-of-cycling {
+  display: grid;
+  grid-template-columns: 108px 176px;
+  grid-template-rows: repeat(auto-fit, minmax(40px, 1fr));
+  row-gap: 40px;
+  column-gap: 0;
+  grid-template-areas:
+    "kinds-of-cycling__title kinds-of-cycling__btn-container"
+    "kinds-of-cycling__image-container kinds-of-cycling__image-container"
+    "kinds-of-cycling__text kinds-of-cycling__text";
+  align-items: center;
+  justify-items: start;
+  justify-content: center;
+  padding-bottom: 80px;
+  padding-top: 40px;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+@media screen and (min-width: 1440px) {
+  .kinds-of-cycling {
+    grid-template-columns: 460px 740px;
+    grid-template-rows: repeat(auto-fit, minmax(50px, 1fr));
+    row-gap: 50px;
+    grid-template-areas:
+      "kinds-of-cycling__title kinds-of-cycling__title"
+      "kinds-of-cycling__text ."
+      "kinds-of-cycling__image-container kinds-of-cycling__image-container"
+      "kinds-of-cycling__btn-container kinds-of-cycling__btn-container";
+    align-items: center;
+    justify-items: start;
+    justify-content: center;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    border-bottom: none;
+  }
+}

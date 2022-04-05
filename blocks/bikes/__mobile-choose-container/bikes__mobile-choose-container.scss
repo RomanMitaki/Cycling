@@ -1,0 +1,11 @@
+.bikes__mobile-choose-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 1440px) {
+  .bikes__mobile-choose-container {
+    display: none;
+  }
+}

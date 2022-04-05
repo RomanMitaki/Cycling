@@ -1,0 +1,46 @@
+@use "sass:math";
+
+.description__btn {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: math.div(19, 13);
+  width: 100%;
+  height: 46px;
+  background-color: #24b47e;
+  border-radius: 4px;
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  grid-area: description__btn;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 46px;
+    background: #319e75;
+    border-radius: 4px;
+    transition: width 1s ease-in-out;
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .description__btn {
+    width: 180px;
+    height: 50px;
+    font-size: 14px;
+    line-height: math.div(18, 14);
+
+    &::after {
+      height: 50px;
+    }
+  }
+}

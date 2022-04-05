@@ -1,0 +1,27 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Inter", "Arial", "sans-serif";
+  font-size: 12px;
+  line-height: 1.5;
+  box-sizing: border-box;
+  background: #f4f4f4;
+  color: #151515;
+  min-height: 100vh;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+  margin: 0 auto;
+  padding: 0 18px 0 18px;
+  max-width: 320px;
+  box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);
+}
+
+@media screen and (min-width: 1440px) {
+  .root {
+    padding: 0 120px 0 120px;
+    font-size: 18px;
+    line-height: 1.5555555556;
+    max-width: 1440px;
+  }
+}/*# sourceMappingURL=root.css.map */

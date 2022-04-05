@@ -1,0 +1,13 @@
+.card__image_location_bikes {
+  width: 254px;
+  height: 254px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media screen and (min-width: 1440px) {
+  .card__image_location_bikes {
+    width: 340px;
+    height: 340px;
+  }
+}/*# sourceMappingURL=card__image_location_bikes.css.map */

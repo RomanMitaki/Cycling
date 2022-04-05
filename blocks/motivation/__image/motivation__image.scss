@@ -1,0 +1,11 @@
+.motivation__image {
+  width: 284px;
+  height: 204px;
+}
+
+@media screen and (min-width: 1440px) {
+  .motivation__image {
+    width: 650px;
+    height: 460px;
+  }
+}

@@ -1,0 +1,15 @@
+.kinds-of-cycling__title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: -0.5px;
+  grid-area: kinds-of-cycling__title;
+  margin: 0;
+}
+
+@media screen and (min-width: 1440px) {
+  .kinds-of-cycling__title {
+    font-size: 55px;
+    line-height: 1.0909090909;
+  }
+}/*# sourceMappingURL=kinds-of-cycling__title.css.map */

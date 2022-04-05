@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 9999;
+  overflow-x: hidden;
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 1440px;
+  padding-left: 18px;
+  padding-right: 18px;
+  box-sizing: border-box;
+}/*# sourceMappingURL=header.css.map */
