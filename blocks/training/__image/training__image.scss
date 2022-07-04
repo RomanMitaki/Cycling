@@ -1,0 +1,12 @@
+.training__image {
+  width: 284px;
+  height: 225px;
+  grid-area: training__image;
+}
+
+@media screen and (min-width: 1440px) {
+  .training__image {
+    width: 580px;
+    height: 460px;
+  }
+}

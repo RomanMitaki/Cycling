@@ -1,0 +1,26 @@
+.training {
+  display: grid;
+  grid-template-columns: 284px;
+  grid-template-rows: repeat(auto-fit, minmax(44px, 1fr));
+  row-gap: 40px;
+  grid-template-areas: "training__title" "training__image" "training__text" "training__links";
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 1440px) {
+  .training {
+    grid-template-columns: 460px 580px;
+    grid-template-rows: repeat(auto-fit, minmax(68px, 1fr));
+    row-gap: 50px;
+    -moz-column-gap: 160px;
+         column-gap: 160px;
+    grid-template-areas: "training__title training__image" "training__text training__image" "training__links training__image";
+    padding-top: 150px;
+    padding-bottom: 120px;
+  }
+}/*# sourceMappingURL=training.css.map */

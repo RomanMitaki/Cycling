@@ -1,0 +1,14 @@
+.bikes__mobile-choose {
+  width: 5px;
+  height: 5px;
+  margin-right: 4px;
+  padding: 0;
+  border: 0;
+  background-color: #cacaca;
+  border-radius: 50%;
+  transition: background-color 0.4s;
+}
+.bikes__mobile-choose:hover {
+  cursor: pointer;
+  background-color: #151515;
+}/*# sourceMappingURL=bikes__mobile-choose.css.map */

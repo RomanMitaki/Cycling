@@ -1,0 +1,19 @@
+@use "sass:math";
+
+.bikes__title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: math.div(40, 32);
+  letter-spacing: -0.5px;
+  margin: 0;
+  box-sizing: border-box;
+  grid-area: bikes__title;
+}
+
+@media screen and (min-width: 1440px) {
+  .bikes__title {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: math.div(60, 55);
+  }
+}

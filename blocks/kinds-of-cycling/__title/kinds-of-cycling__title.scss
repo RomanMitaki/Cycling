@@ -1,0 +1,17 @@
+@use "sass:math";
+
+.kinds-of-cycling__title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: math.div(40, 32);
+  letter-spacing: -0.5px;
+  grid-area: kinds-of-cycling__title;
+  margin: 0;
+}
+
+@media screen and (min-width: 1440px) {
+  .kinds-of-cycling__title {
+    font-size: 55px;
+    line-height: math.div(60, 55);
+  }
+}

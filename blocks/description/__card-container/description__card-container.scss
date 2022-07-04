@@ -1,0 +1,14 @@
+.description__card-container {
+  position: absolute;
+  width: 234px;
+  height: 189px;
+  transform: translateX(-27px);
+}
+
+@media screen and (min-width: 1440px) {
+  .description__card-container {
+    width: 440px;
+    height: 352px;
+    transform: translate(630px, 82px);
+  }
+}

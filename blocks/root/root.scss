@@ -1,0 +1,52 @@
+@use "sass:math";
+
+$main-mobile-font: 12px;
+$main-desktop-font: 18px;
+$background-white: #f4f4f4;
+$background-black: #333333;
+$color-white: #151515;
+$color-black: #ffffff;
+
+@mixin reset-ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin link-decoration {
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 0.4s;
+
+  &:hover {
+    opacity: 0.75;
+  }
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Inter", "Arial", "sans-serif";
+  font-size: $main-mobile-font;
+  line-height: math.div(18, 12);
+  box-sizing: border-box;
+  background: $background-white;
+  color: $color-white;
+  min-height: 100vh;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+  margin: 0 auto;
+  padding: 0 18px 0 18px;
+  max-width: 320px;
+  box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);
+}
+
+@media screen and (min-width: 1440px) {
+  .root {
+    padding: 0 120px 0 120px;
+    font-size: $main-desktop-font;
+    line-height: math.div(28, 18);
+    max-width: 1440px;
+  }
+}

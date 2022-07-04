@@ -1,0 +1,17 @@
+.bikes__title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: -0.5px;
+  margin: 0;
+  box-sizing: border-box;
+  grid-area: bikes__title;
+}
+
+@media screen and (min-width: 1440px) {
+  .bikes__title {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 1.0909090909;
+  }
+}/*# sourceMappingURL=bikes__title.css.map */

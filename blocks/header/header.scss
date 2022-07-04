@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  overflow-x: hidden;
+  margin: 0 auto;
+  max-width: 320px;
+  width: 100%;
+  padding-left: 18px;
+  padding-right: 18px;
+  box-sizing: border-box;
+  background: $background-white;
+  color: $color-white;
+}
+
+@media screen and (min-width: 1440px) {
+  .header {
+    flex-direction: row;
+    justify-content: end;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    max-width: 1440px;
+  }
+}

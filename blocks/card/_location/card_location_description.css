@@ -1,0 +1,16 @@
+.card_location_description {
+  width: 234px;
+  height: 160px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 29px;
+  border-radius: 20px;
+  box-shadow: 0px 20px 140px rgba(0, 0, 0, 0.06);
+}
+
+@media screen and (min-width: 1440px) {
+  .card_location_description {
+    width: 440px;
+    height: 300px;
+  }
+}/*# sourceMappingURL=card_location_description.css.map */

@@ -1,0 +1,14 @@
+.theme__toggle {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+
+  &:checked + .theme__toggle-label {
+    background: #545454;
+  }
+
+  &:checked + .theme__toggle-label::after {
+    left: calc(100% - 2px);
+    transform: translateX(-100%);
+  }
+}

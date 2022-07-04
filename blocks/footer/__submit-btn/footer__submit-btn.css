@@ -1,0 +1,20 @@
+.footer__submit-btn {
+  width: 35px;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  font-size: 13px;
+  line-height: 48px;
+  font-weight: 500;
+  color: #151515;
+  border: none;
+  background-color: #efefef;
+  transform: opacity 0.4s;
+  z-index: 9999;
+}
+.footer__submit-btn:hover {
+  cursor: pointer;
+  opacity: 0.75;
+}/*# sourceMappingURL=footer__submit-btn.css.map */

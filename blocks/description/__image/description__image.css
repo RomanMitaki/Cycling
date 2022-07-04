@@ -1,0 +1,14 @@
+.description__image {
+  width: 254px;
+  height: 348px;
+  transform: translateX(15px);
+  grid-area: description__image;
+}
+
+@media screen and (min-width: 1440px) {
+  .description__image {
+    width: 610px;
+    height: 836px;
+    transform: none;
+  }
+}/*# sourceMappingURL=description__image.css.map */

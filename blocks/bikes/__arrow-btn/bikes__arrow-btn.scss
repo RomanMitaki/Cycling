@@ -1,0 +1,27 @@
+.bikes__arrow-btn {
+  margin: 0;
+  padding: 0;
+  border: none;
+  width: 12px;
+  height: 7px;
+  position: absolute;
+  top: 13px;
+  right: 10px;
+  background-image: url(../images/UI\ KIT\ bikes-menu-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: transparent;
+  transition: opacity 0.4s;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.75;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .bikes__arrow-btn {
+    display: none;
+  }
+}

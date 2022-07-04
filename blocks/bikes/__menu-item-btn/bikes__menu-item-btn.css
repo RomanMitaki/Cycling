@@ -1,0 +1,28 @@
+.bikes__menu-item-btn {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  opacity: 0.7;
+  font-size: 11px;
+  line-height: 1.2727272727;
+  width: 50px;
+  height: 30px;
+  border: none;
+  background-color: #f4f4f4;
+  padding-left: 12px;
+  text-align: start;
+  transition: opacity 0.4s;
+}
+.bikes__menu-item-btn:hover {
+  cursor: pointer;
+  opacity: 0.75;
+}
+
+@media screen and (min-width: 1440px) {
+  .bikes__menu-item-btn {
+    font-size: 18px;
+    line-height: 1.5555555556;
+    padding-left: 0;
+    width: auto;
+  }
+}/*# sourceMappingURL=bikes__menu-item-btn.css.map */

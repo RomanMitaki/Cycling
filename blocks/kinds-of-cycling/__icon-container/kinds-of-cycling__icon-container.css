@@ -1,0 +1,21 @@
+.kinds-of-cycling__icon-container {
+  width: 70px;
+  height: 28px;
+  position: absolute;
+  top: 133px;
+  left: 0;
+  background: transparent;
+  background-image: url(../images/UI\ KIT\ road-label-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (min-width: 1440px) {
+  .kinds-of-cycling__icon-container {
+    width: 100px;
+    height: 40px;
+    top: 344px;
+    background-image: url(../images/UI\ KIT\ road-label-desktop.svg);
+  }
+}/*# sourceMappingURL=kinds-of-cycling__icon-container.css.map */

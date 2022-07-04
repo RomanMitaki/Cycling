@@ -1,0 +1,111 @@
+@import '../vendor/normalize';
+@import '../vendor/fonts';
+@import '../blocks/root/root';
+
+/* header */
+@import '../blocks/header/header';
+@import '../blocks/header/_type/header_type_mobile';
+@import '../blocks/header/_type/header_type_desktop';
+@import '../blocks/header/__menu-btn/header__menu-btn';
+@import '../blocks/header/__menu-btnMiddleLine/header__menu-btnMiddleLine';
+@import '../blocks/header/__mobile-menu/header__mobile-menu';
+@import '../blocks/header/__mobile-menu/_hidden/header__mobile-menu_hidden';
+@import '../blocks/header/__menu/header__menu';
+@import '../blocks/header/__menu-item/header__menu-item';
+@import '../blocks/header/__menu-link/header__menu-link';
+@import '../blocks/theme/theme';
+@import '../blocks/header/__theme/header__theme';
+@import '../blocks/theme/__icon-sun/theme__icon-sun';
+@import '../blocks/theme/__icon-moon/theme__icon-moon';
+@import '../blocks/theme/__toggle/theme__toggle';
+@import '../blocks/theme/__toggle-label/theme__toggle-label';
+
+/* section description */
+@import '../blocks/content/content';
+@import '../blocks/description/description';
+@import '../blocks/description/__title/description__title';
+@import '../blocks/description/__image/description__image';
+@import '../blocks/description/__card-container/description__card-container';
+@import '../blocks/description/__text/description__text';
+@import '../blocks/description/__btn/description__btn';
+@import '../blocks/description/__btn-accent/description__btn-accent';
+@import '../blocks/description/__caption/description__caption';
+@import '../blocks/description/__caption-accent/description__caption-accent';
+
+/* section motivation */
+@import '../blocks/motivation/motivation';
+@import '../blocks/motivation/__image/motivation__image';
+@import '../blocks/motivation/__quote/motivation__quote';
+@import '../blocks/motivation/__quote-text/motivation__quote-text';
+@import '../blocks/motivation/__quote-caption/motivation__quote-caption';
+@import '../blocks/motivation/__quote-caption-accent/motivation__quote-caption-accent';
+
+/* section kinds of cycling */
+@import '../blocks/kinds-of-cycling-wrapper/kinds-of-cycling-wrapper';
+@import '../blocks/kinds-of-cycling/kinds-of-cycling';
+@import '../blocks/kinds-of-cycling/_hidden/kinds-of-cycling_hidden';
+@import '../blocks/kinds-of-cycling/__title/kinds-of-cycling__title';
+@import '../blocks/kinds-of-cycling/__btn-container/kinds-of-cycling__btn-container';
+@import '../blocks/kinds-of-cycling/__btn/kinds-of-cycling__btn';
+@import '../blocks/kinds-of-cycling/__btn/_prev/kinds-of-cycling__btn_prev';
+@import '../blocks/kinds-of-cycling/__btn/_next/kinds-of-cycling__btn_next';
+@import '../blocks/kinds-of-cycling/__image-container/kinds-of-cycling__image-container';
+@import '../blocks/kinds-of-cycling/__img/kinds-of-cycling__img';
+@import '../blocks/kinds-of-cycling/__icon-container/kinds-of-cycling__icon-container';
+@import '../blocks/kinds-of-cycling/__icon/kinds-of-cycling__icon';
+@import '../blocks/kinds-of-cycling/__icon/_type/kinds-of-cycling__icon_type_road';
+@import '../blocks/kinds-of-cycling/__icon/_type/kinds-of-cycling__icon_type_gravel';
+@import '../blocks/kinds-of-cycling/__icon/_type/kinds-of-cycling__icon_type_TT';
+@import '../blocks/kinds-of-cycling/__text/kinds-of-cycling__text';
+
+/* section bikes */
+@import '../blocks/bikes/bikes';
+@import '../blocks/bikes/__title/bikes__title';
+@import '../blocks/bikes/__navigation/bikes__navigation';
+@import '../blocks/bikes/__menu-item/bikes__menu-item';
+@import '../blocks/bikes/__menu-item/_hidden/bikes__menu-item_hidden';
+@import '../blocks/bikes/__menu-item-btn/bikes__menu-item-btn';
+@import '../blocks/bikes/__menu-item-btn/_active/bikes__menu-item-btn_active';
+@import '../blocks/bikes/__arrow-btn/bikes__arrow-btn';
+@import '../blocks/bikes/__menu/bikes__menu';
+@import '../blocks/bikes/__grid-wrapper/bikes__grid-wrapper';
+@import '../blocks/bikes/__cards-container/bikes__cards-container';
+@import '../blocks/bikes/__cards-container/_hidden/bikes__cards-container_hidden';
+@import '../blocks/bikes/__link/bikes__link';
+@import '../blocks/bikes/__link/_hidden/bikes__link_hidden';
+@import '../blocks/card/card';
+@import '../blocks/card/_hidden/card_hidden';
+@import '../blocks/card/_location/card_location_bikes';
+@import '../blocks/card/_location/card_location_description';
+@import '../blocks/card/__image/card__image';
+@import '../blocks/card/__image/_location/card__image_location_description';
+@import '../blocks/card/__image/_location/card__image_location_bikes';
+@import '../blocks/card/__caption/card__caption';
+@import '../blocks/card/__caption/_location/card__caption_location_bikes';
+@import '../blocks/card/__caption/_location/card__caption_location_description';
+@import '../blocks/bikes/__mobile-choose-container/bikes__mobile-choose-container';
+@import '../blocks/bikes/__mobile-choose/bikes__mobile-choose';
+@import '../blocks/bikes/__mobile-choose-container/_hidden/bikes__mobile-choose-container_hidden.scss';
+@import '../blocks/bikes/__mobile-choose/_active/bikes__mobile-choose_active';
+
+/* section training */
+@import '../blocks/training/training.scss';
+@import '../blocks/training/__title/training__title';
+@import '../blocks/training/__image/training__image';
+@import '../blocks/training/__text/training__text';
+@import '../blocks/training/__links/training__links';
+@import '../blocks/training/__link-wrapper/training__link-wrapper';
+@import '../blocks/training/__link/training__link';
+
+/* footer */
+@import '../blocks/footer/footer';
+@import '../blocks/footer/__title/footer__title';
+@import '../blocks/footer/__form/footer__form';
+@import '../blocks/footer/__email/footer__email';
+@import '../blocks/footer/__submit-btn/footer__submit-btn';
+@import '../blocks/footer/__submit-btn/_hidden/footer__submit-btn_hidden';
+@import '../blocks/footer/__container/footer__container';
+@import '../blocks/footer/__copyright/footer__copyright';
+@import '../blocks/theme/_hidden/theme_hidden';
+@import '../blocks/footer/__logo/footer__logo';
+

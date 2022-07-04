@@ -1,0 +1,13 @@
+.training__links {
+  @include reset-ul;
+  grid-area: training__links;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+@media screen and (min-width: 1440px) {
+  .training__links {
+    padding-top: 132px;
+  }
+}

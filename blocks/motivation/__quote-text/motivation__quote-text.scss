@@ -1,0 +1,22 @@
+@use "sass:math";
+
+.motivation__quote-text {
+  font-size: 22px;
+  line-height: math.div(29, 23);
+  letter-spacing: -0.5px;
+  font-weight: 600;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 1440px) {
+  .motivation__quote-text {
+    font-size: 34px;
+    line-height: math.div(44, 34);
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}

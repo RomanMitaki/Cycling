@@ -1,0 +1,13 @@
+.description__text {
+  color: #222222;
+  opacity: 0.7;
+  margin: 0;
+  grid-area: description__text;
+}
+
+@media screen and (min-width: 1440px) {
+  .description__text {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}/*# sourceMappingURL=description__text.css.map */

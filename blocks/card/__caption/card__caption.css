@@ -1,0 +1,17 @@
+.card__caption {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.2857142857;
+}
+
+@media screen and (min-width: 1440px) {
+  .card__caption {
+    font-size: 18px;
+    line-height: 1.2222222222;
+    margin-top: 40px;
+    text-align: start;
+    display: block;
+    width: 100%;
+    transform: translateX(-20px);
+  }
+}/*# sourceMappingURL=card__caption.css.map */
