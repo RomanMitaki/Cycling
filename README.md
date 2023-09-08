@@ -9,7 +9,7 @@
 
 **Что внутри:**
 лэндинг сайта про велосипеды
-https://github.com/RomanMitaki/Cycling.
+https://romanmitaki.github.io/Cycling/.
 
 
 
